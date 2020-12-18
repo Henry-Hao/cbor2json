@@ -1,0 +1,16 @@
+[package]
+name = "cbor2json"
+version = "0.1.0"
+authors = ["Henry Hao <haoyixian1994@hotmail.com>"]
+edition = "2018"
+description = "A tiny tool to convert CBOR file to JSON"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_cbor = "0.8"
+serde-transcode = "1.1"
+clap = "2.33"
